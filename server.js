@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.send('Hello Elastic Beanstalk! NODE_ENV: ' + NODE_ENV);
+  res.send('Hello Elastic Beanstalk - Version 2! NODE_ENV: ' + NODE_ENV);
 });
 
 app.listen(port, () => {
